@@ -31,6 +31,7 @@ namespace winforms_apk_easysetup_redistribuable
             openfile.Title = "Open a file..";
             if (openfile.ShowDialog() == DialogResult.OK && openfile.FileName.EndsWith(".apk") == true)
             {
+                this.RunADB(" adb shell settings put global development_settings_enabled 1");   // This line automatically sets DeveloperMode on
                 this.RunADB(" install -r \"" + openfile.FileName  + "\"");
             }
         }
