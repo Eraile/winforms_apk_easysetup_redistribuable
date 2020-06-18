@@ -1,2 +1,23 @@
 # winforms_apk_easysetup_redistribuable
-A WinForms project, very simple to redistribute with an .apk. Just change the packname like "com.mycompany.myproduct" to yours, and it gives you two buttons: One to "Install an .apk" that you can search (it should replace previous installs), and one to force "Remove the previous installation" if necessary. You're welcome :)
+A WinForms project, very simple, to redistribute an .apk.
+
+![screenshot](.\_README\screenshot.png)
+
+
+
+**What it does:**
+
+- Install an .apk automatically, click on a button, search for the apk file and the process automatically does everything.
+  - It also automatically sets the "Developer Mode" on.
+- Delete an application with a specified "package name".
+
+
+
+**Steps to redistribute for your own application:**
+
+- Just change the packname like "com.mycompany.myproduct" to yours
+- Change the language ;p
+
+
+
+**You're welcome!**
