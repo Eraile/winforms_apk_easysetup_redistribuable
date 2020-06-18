@@ -1,7 +1,7 @@
 # winforms_apk_easysetup_redistribuable
 A WinForms project, very simple, to redistribute an .apk.
 
-![screenshot](.\_README\screenshot.png)
+![screenshot](_README/screenshot.png)
 
 
 
