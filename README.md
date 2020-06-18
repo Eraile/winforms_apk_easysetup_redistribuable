@@ -16,7 +16,7 @@ A WinForms project, very simple, to redistribute an .apk.
 **Steps to redistribute for your own application:**
 
 - Just change the packname like "com.mycompany.myproduct" to yours
-- Change the language ;p
+- Change the language, icons & texts ;P
 
 
 
